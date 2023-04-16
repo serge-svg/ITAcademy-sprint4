@@ -7,9 +7,9 @@ const {
   orderByYear,
   moviesAverageByCategory,
   hoursToMinutes,
-  //bestFilmOfYear,
+  bestFilmOfYear,
 } = require('../src/films');
-
+/*
 // Exercise 1
 describe('Function "getAllDirectors"', () => {
   it('should be declared', () => {
@@ -400,8 +400,8 @@ describe('Function "hoursToMinutes"', () => {
     expect(hoursToMinutes(movieTry)[0].duration).toBe(120);
   });
 });
+*/
 
-/*
 // Exercise 8
 describe('Function "bestFilmOfYear"', () => {
   it('should be declared', () => {
@@ -455,4 +455,4 @@ describe('Function "bestFilmOfYear"', () => {
     ]);
   });
 
-});*/
+});
